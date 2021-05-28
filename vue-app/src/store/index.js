@@ -2,7 +2,7 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-    username: 'Fafnir'
+    username: 'Hagen'
   },
   mutations: {
     setUsername(state,val){
