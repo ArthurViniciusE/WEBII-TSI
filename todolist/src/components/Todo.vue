@@ -1,9 +1,9 @@
 <template>
   <div class="flex items-center justify-center h-screen">
-    <div class="bg-gray-700 flex flex-col  items-center w-1/3 h-auto pb-5" >
+    <div class="bg-gray-700 flex flex-col rounded-2xl items-center w-1/3 h-auto pb-5" >
       
       <h1 class="mb-14 mt-5 text-3xl text-white">Todo List</h1>
-      <input v-model="form.nome" class="rounded-b-md border-2 border-gray-200 focus:outline-none" type="text" placeholder="Todo">
+      <input v-model="form.nome" class="rounded-md border-2 border-gray-200 focus:outline-none" type="text" placeholder="Todo">
       <button @click="add" class="mt-5 bg-blue-600 px-4 py-2 rounded-lg text-white focus:outline-none">Adicionar</button>
       <h2 class="text-2xl text-white mr-60 mt-3 ">Todo</h2>
       <div class="flex flex-col ">
